@@ -1,9 +1,9 @@
-import React from 'react'
+import React from "react";
 
-const Home = () => {
+const Header = () => {
   return (
-    <div className='bg-danger'>Home</div>
-  )
-}
+    <h1>Home</h1>
+  );
+};
 
-export default Home
+export default Header;

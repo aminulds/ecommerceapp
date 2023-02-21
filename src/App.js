@@ -1,5 +1,5 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './App.scss';
+import './styles/app.scss';
 import React from 'react';
 import { Counter } from './features/counter/Counter';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';

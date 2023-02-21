@@ -1,0 +1,40 @@
+// variables import
+@import './variables.scss';
+
+
+// Global Style
+body {
+  a {
+    text-decoration: none;
+    display: inline-block;
+    transition: $transition;
+
+    &:hover {
+      color: $colorPrimary !important;
+    }
+  }
+
+  .form-control {
+    border: none;
+
+    &:focus {
+      box-shadow: none;
+    }
+  }
+
+  .gap-10 {
+    gap: 10px;
+  }
+
+  .gap-15 {
+    gap: 15px;
+  }
+
+  .gap-30 {
+    gap: 30px;
+  }
+}
+
+
+// Components
+@import '../components/header.scss';
