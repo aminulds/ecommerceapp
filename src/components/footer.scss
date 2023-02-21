@@ -1,0 +1,14 @@
+.footer {
+  background-color: $colorSecondary;
+  color: $colorWhite;
+
+  .author {
+    color: $colorPrimary;
+    font-weight: 600;
+    transition: $transition;
+
+    &:hover {
+      color: $colorWhite !important;
+    }
+  }
+}

@@ -12,7 +12,6 @@
 
   // Top Header
   .headerTopStrip {
-    border-bottom: 1px solid $colorDarkSecondary;
 
     p {
       margin-bottom: 0;
@@ -26,18 +25,6 @@
 
   // Middle Header
   .headerUpper {
-    .input-group-text {
-      background-color: $colorPrimary;
-      border: none;
-      cursor: pointer;
-      transition: $transition;
-      font-weight: 700;
-
-      &:hover {
-        color: $colorWhite;
-      }
-    }
-
     .header-upper-links {
       p {
         font-size: 14px;

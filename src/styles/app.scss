@@ -14,11 +14,29 @@ body {
     }
   }
 
+  .border-bottom {
+    border-bottom-color: $colorDarkSecondary !important;
+  }
+
   .form-control {
     border: none;
 
     &:focus {
       box-shadow: none;
+    }
+  }
+
+  .input-group {
+    .input-group-text {
+      background-color: $colorPrimary;
+      border: none;
+      cursor: pointer;
+      transition: $transition;
+      font-weight: 700;
+
+      &:hover {
+        color: $colorWhite;
+      }
     }
   }
 
@@ -38,3 +56,9 @@ body {
 
 // Components
 @import '../components/header.scss';
+
+
+
+
+// Footer
+@import '../components/footer.scss';

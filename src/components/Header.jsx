@@ -9,7 +9,7 @@ const Header = () => {
     <header className='header'>
 
       {/* Top Header */}
-      <div className="headerTopStrip">
+      <div className="headerTopStrip border-bottom">
         <div className="container-xxl">
           <div className="row ">
             <div className="col-6">
