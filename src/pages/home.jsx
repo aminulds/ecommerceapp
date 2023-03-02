@@ -1,10 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import banner1 from '../assets/images/banner/main-banner-1.jpg';
-import { bannerData, categoryData, serviceData } from "../data";
+import { bannerData, brandData, categoryData, serviceData } from "../data";
 import Banner from "../components/Banner";
 import Service from "../components/Service";
 import Category from "../components/Category";
+import Marquee from "react-fast-marquee";
+import Brand from "../components/Brand";
 
 const Header = () => {
   return (
@@ -51,9 +53,24 @@ const Header = () => {
       {/* Category */}
       <section className="category py-5">
         <div className="container-xxl">
-          <div className="categoryContent p-3">
+          <div className="categoryContent card p-3">
             <div className="row g-4 row-cols-1 row-cols-sm-2 row-cols-lg-4">
               {categoryData.map((item) => <Category key={item.id} title={item.title} subTitle={item.subTitle} img={item.img} />)}
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Brand */}
+      <section className="brand">
+        <div className="container-xxl">
+          <div className="row">
+            <div className="col-12">
+              <div className="brandContent card">
+                <Marquee className="d-flex">
+                  {brandData.map((item) => <Brand key={item.id} img={item.img} />)}
+                </Marquee>
+              </div>
             </div>
           </div>
         </div>

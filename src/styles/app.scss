@@ -68,6 +68,12 @@ body {
       color: $colorSecondary !important;
     }
   }
+
+  .card {
+    box-shadow: 0 0 10px #0000001a;
+    border: none;
+    border-radius: unset;
+  }
 }
 
 

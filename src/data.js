@@ -18,6 +18,15 @@ import category6 from './assets/images/category/6.png';
 import category7 from './assets/images/category/7.png';
 import category8 from './assets/images/category/8.png';
 
+import brand1 from './assets/images/brand/brand-01.png';
+import brand2 from './assets/images/brand/brand-02.png';
+import brand3 from './assets/images/brand/brand-03.png';
+import brand4 from './assets/images/brand/brand-04.png';
+import brand5 from './assets/images/brand/brand-05.png';
+import brand6 from './assets/images/brand/brand-06.png';
+import brand7 from './assets/images/brand/brand-07.png';
+import brand8 from './assets/images/brand/brand-08.png';
+
 // Banner Data
 export const bannerData = [
 
@@ -134,5 +143,41 @@ export const categoryData = [
     img: category8,
     title: 'Accessories',
     subTitle: '4 Items'
+  }
+];
+
+// Brnd data
+export const brandData = [
+  {
+    id: 1,
+    img: brand1
+  },
+  {
+    id: 2,
+    img: brand2
+  },
+  {
+    id: 3,
+    img: brand3
+  },
+  {
+    id: 4,
+    img: brand4
+  },
+  {
+    id: 5,
+    img: brand5
+  },
+  {
+    id: 6,
+    img: brand6
+  },
+  {
+    id: 7,
+    img: brand7
+  },
+  {
+    id: 8,
+    img: brand8
   }
 ];
