@@ -4,6 +4,8 @@
 
 // Global Style
 body {
+  font-family: $fontPrimary;
+
   a {
     text-decoration: none;
     display: inline-block;
@@ -72,6 +74,7 @@ body {
 // Components
 @import '../components/header.scss';
 @import '../components/banner.scss';
+@import '../components/category.scss';
 
 
 // Pages

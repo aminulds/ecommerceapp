@@ -4,7 +4,7 @@
 // --color-febd69: #;
 // --color-232f3e: #;
 // --color-bf4800: #bf4800;
-// --color-f5f5f7: #f5f5f7;
+// --color-f5f5f7: #;
 // --color-ededed: #ededed;
 // --color-777777: #777777;
 // --color-1c1c1b: #1c1c1b;
@@ -12,9 +12,14 @@
 $colorPrimary: #febd69;
 $colorSecondary: #232f3e;
 $colorWhite: #fff;
+$colorWhiteSecondary: #f5f5f7;
 $colorDark: #131921;
 $colorDarkSecondary: #3b4149;
 $colorDanger: #bf4800;
+$colorBorder: #ededed;
+
+// Font
+$fontPrimary: 'Rubik';
 
 // Animations
 $transition: all 0.3s ease;

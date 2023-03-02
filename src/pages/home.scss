@@ -1,1 +1,16 @@
-.homeWraper {}
+// .banner {}
+
+// services
+.services {
+  background-color: $colorWhiteSecondary;
+}
+
+// category
+.category {
+  background-color: $colorWhiteSecondary;
+
+  .categoryContent {
+    background-color: $colorWhite;
+    box-shadow: 0 0 10px #0000001a;
+  }
+}

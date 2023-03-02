@@ -1,13 +1,16 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import banner1 from '../images/main-banner-1.jpg';
-import { bannerData } from "../data";
+import { bannerData, categoryData, serviceData } from "../data";
 import Banner from "../components/Banner";
+import Service from "../components/Service";
+import Category from "../components/Category";
 
 const Header = () => {
   return (
     <>
-      <section className="homeWraper py-5">
+      {/* Banner */}
+      <section className="banner py-5">
         <div className="container-xxl">
           <div className="row">
             <div className="col-6">
@@ -27,6 +30,30 @@ const Header = () => {
 
                 {bannerData.map((item) => <Banner key={item.id} label={item.label} title={item.title} subTitle={item.subTitle} img={item.img} />)}
               </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Service */}
+      <section className="services py-5">
+        <div className="container-xxl">
+          <div className="row">
+            <div className="col-12">
+              <div className="serviceContent d-flex align-items-center justify-content-between">
+                {serviceData.map((item) => <Service key={item.id} img={item.img} title={item.title} subTitle={item.subTitle} />)}
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Category */}
+      <section className="category py-5">
+        <div className="container-xxl">
+          <div className="categoryContent p-3">
+            <div className="row g-4 row-cols-1 row-cols-sm-2 row-cols-lg-4">
+              {categoryData.map((item) => <Category key={item.id} title={item.title} subTitle={item.subTitle} img={item.img} />)}
             </div>
           </div>
         </div>
