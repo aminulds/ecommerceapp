@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import banner1 from '../images/main-banner-1.jpg';
+import banner1 from '../assets/images/banner/main-banner-1.jpg';
 import { bannerData, categoryData, serviceData } from "../data";
 import Banner from "../components/Banner";
 import Service from "../components/Service";

@@ -1,13 +1,13 @@
-import catBanner1 from './images/catbanner-01.jpg';
-import catBanner2 from './images/catbanner-02.jpg';
-import catBanner3 from './images/catbanner-03.jpg';
-import catBanner4 from './images/catbanner-04.jpg';
+import catBanner1 from './assets/images/banner/catbanner-01.jpg';
+import catBanner2 from './assets/images/banner/catbanner-02.jpg';
+import catBanner3 from './assets/images/banner/catbanner-03.jpg';
+import catBanner4 from './assets/images/banner/catbanner-04.jpg';
 
-import service1 from './images/service.png';
-import service2 from './images/service-02.png';
-import service3 from './images/service-03.png';
-import service4 from './images/service-04.png';
-import service5 from './images/service-05.png';
+import service1 from './assets/images/service/service.png';
+import service2 from './assets/images/service/service-02.png';
+import service3 from './assets/images/service/service-03.png';
+import service4 from './assets/images/service/service-04.png';
+import service5 from './assets/images/service/service-05.png';
 
 import category1 from './assets/images/category/1.png';
 import category2 from './assets/images/category/2.png';
