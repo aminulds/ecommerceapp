@@ -51,11 +51,31 @@ body {
   .gap-30 {
     gap: 30px;
   }
+
+  .button {
+    background-color: $colorSecondary;
+    color: $colorWhite;
+    font-size: 14px;
+    padding: 13px 33px;
+    border-radius: 25px;
+    text-transform: uppercase;
+    font-weight: 500;
+
+    &:hover {
+      background-color: $colorPrimary;
+      color: $colorSecondary !important;
+    }
+  }
 }
 
 
 // Components
 @import '../components/header.scss';
+@import '../components/banner.scss';
+
+
+// Pages
+@import '../pages/home.scss';
 
 
 
