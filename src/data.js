@@ -27,6 +27,11 @@ import brand6 from './assets/images/brand/brand-06.png';
 import brand7 from './assets/images/brand/brand-07.png';
 import brand8 from './assets/images/brand/brand-08.png';
 
+import blog1 from './assets/images/blog/1.png';
+import blog2 from './assets/images/blog/2.png';
+import blog3 from './assets/images/blog/3.png';
+import blog4 from './assets/images/blog/4.png';
+
 // Banner Data
 export const bannerData = [
 
@@ -180,4 +185,36 @@ export const brandData = [
     id: 8,
     img: brand8
   }
+];
+
+// Blog data
+export const blogData = [
+  {
+    id: 1,
+    img: blog1,
+    date: '12 Jan, 2023',
+    title: 'Top Best Saling Product',
+    description: 'Your are only as good as your last collection. Which is an enormous pressure. I think there is something about special.',
+  },
+  {
+    id: 2,
+    img: blog2,
+    date: '12 Jan, 2023',
+    title: 'Top Best Saling Product',
+    description: 'Your are only as good as your last collection. Which is an enormous pressure. I think there is something about special.',
+  },
+  {
+    id: 3,
+    img: blog3,
+    date: '12 Jan, 2023',
+    title: 'Top Best Saling Product',
+    description: 'Your are only as good as your last collection. Which is an enormous pressure. I think there is something about special.',
+  },
+  {
+    id: 4,
+    img: blog4,
+    date: '12 Jan, 2023',
+    title: 'Top Best Saling Product',
+    description: 'Your are only as good as your last collection. Which is an enormous pressure. I think there is something about special.',
+  },
 ];

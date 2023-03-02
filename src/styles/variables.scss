@@ -22,7 +22,10 @@ $colorBorder: #ededed;
 $fontPrimary: 'Rubik';
 
 // Animations
-$transition: all 0.3s ease;
+$transition: all 0.3s ease-in-out;
+
+// Shadow 
+$shadow: 0 0.5rem 1rem rgba(var(--bs-body-color-rgb), .15) !important;
 
 // Border
 $border1: 1px solid $colorDarkSecondary;

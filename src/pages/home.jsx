@@ -1,12 +1,13 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import banner1 from '../assets/images/banner/main-banner-1.jpg';
-import { bannerData, brandData, categoryData, serviceData } from "../data";
+import { bannerData, blogData, brandData, categoryData, serviceData } from "../data";
 import Banner from "../components/Banner";
 import Service from "../components/Service";
 import Category from "../components/Category";
 import Marquee from "react-fast-marquee";
 import Brand from "../components/Brand";
+import BlogItem from "../components/BlogItem";
 
 const Header = () => {
   return (
@@ -62,7 +63,7 @@ const Header = () => {
       </section>
 
       {/* Brand */}
-      <section className="brand">
+      <section className="brand py-5">
         <div className="container-xxl">
           <div className="row">
             <div className="col-12">
@@ -72,6 +73,19 @@ const Header = () => {
                 </Marquee>
               </div>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Blog */}
+      <section className="blog py-5">
+        <div className="container-xxl">
+          <div className="sectionTitle">
+            <h4 className="mb-4">Latest Blog</h4>
+          </div>
+
+          <div className="row g-4 row-cols-1 row-cols-sm-2 row-cols-lg-4">
+            {blogData.map((item) => <BlogItem key={item.id} img={item.img} date={item.date} title={item.title} description={item.description} />)}
           </div>
         </div>
       </section>
